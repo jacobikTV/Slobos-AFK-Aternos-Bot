@@ -1,7 +1,7 @@
 {
-  "name": "AFK Bot",
+  "name": "Syn",
   "bot-account": {
-    "username": "Slobot00",
+    "username": "24/7",
     "password": "",
     "type": "offline"
   },
@@ -29,11 +29,11 @@
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 120,
+      "repeat-delay": 240,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
+        "kocham swoich braci",
+        "tatus jest najlepszy",
+        "chuj wam w dupe skurwysny"
       ]
     },
     "chat-log": true,
@@ -60,7 +60,7 @@
   "modules": {
     "avoidMobs": true,
     "combat": true,
-    "beds": false,
+    "beds": true,
     "chat": true,
     "console-commands": true
   },
@@ -69,8 +69,8 @@
     "auto-eat": true
   },
   "beds": {
-    "pick-up-day": false,
-    "place-night": false
+    "pick-up-day": true,
+    "place-night": true,
   },
   "discord": {
     "enabled": false,
